@@ -1,0 +1,71 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+label.inline {
+  flex-direction: row;
+  align-items: center;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+input,
+select {
+  padding: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.preview {
+  min-width: 280px;
+}
+
+.preview pre {
+  background: #f4f4f4;
+  padding: 12px;
+  border-radius: 6px;
+}
